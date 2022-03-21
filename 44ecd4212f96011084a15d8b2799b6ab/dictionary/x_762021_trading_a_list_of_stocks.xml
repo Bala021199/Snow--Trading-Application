@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="List_of_Stocks" max_length="40" name="x_762021_trading_a_list_of_stocks" sizeclass="6" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Stock_ID" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Stock_Name" mandatory="true" max_length="40" name="stock_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Unit" max_length="40" name="u_choice_10" type="string">
+            <choice>
+                <element inactive_on_update="false" label="10 Grams" sequence="0" value="10 grams"/>
+                <element inactive_on_update="false" label="100 Grams" sequence="1" value="100 grams"/>
+                <element inactive_on_update="false" label="1 KG" sequence="2" value="1 kg"/>
+                <element inactive_on_update="false" label="10  Barrels" sequence="3" value="10  Barrels"/>
+                <element inactive_on_update="false" label="100 Barrels" sequence="4" value="100 Barrels"/>
+                <element inactive_on_update="false" label="1000 Barrels" sequence="5" value="1000 Barrels"/>
+                <element inactive_on_update="false" label="1 mmBtu" sequence="6" value="1 mmBtu"/>
+                <element inactive_on_update="false" label="10 mmBtu" sequence="7" value="10 mmBtu"/>
+                <element inactive_on_update="false" label="100 mmBtu" sequence="8" value="100 mmBtu"/>
+                <element inactive_on_update="false" label="1000 Coins" sequence="9" value="1000 Coins"/>
+                <element inactive_on_update="false" label="10000 Coins" sequence="10" value="10000 Coins"/>
+                <element inactive_on_update="false" label="100000 Coins" sequence="11" value="100000 Coins"/>
+            </choice>
+        </element>
+        <element label="Digits" mandatory="true" max_length="40" name="u_integer_3" type="integer"/>
+        <element label="Bid Price" max_length="40" name="u_integer_5" type="integer"/>
+        <element label="Ask Price" max_length="40" name="u_integer_6" type="integer"/>
+        <element label="Contract Size" mandatory="true" max_length="40" name="u_integer_7" type="integer"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Bid Prize" max_length="20" name="u_price_11" type="price"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Ask Prize" max_length="20" name="u_price_12" type="price"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" max_length="20" name="u_price_9" type="price"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="100" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sector" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Spread" max_length="40" name="u_string_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Commission" mandatory="true" max_length="40" name="u_string_8" type="string"/>
+    </element>
+</database>

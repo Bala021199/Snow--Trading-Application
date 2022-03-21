@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Trade_Employees" max_length="40" name="x_762021_trading_a_trade_employees" sizeclass="0" type="collection">
+        <element label="Emp_Name" mandatory="true" max_length="40" name="emp_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Employe ID" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="active" label="Status" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
+                <element inactive_on_update="false" label="Inactive" sequence="1" value="inactive"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="coimbatore" label="City" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Coimbatore" sequence="0" value="coimbatore"/>
+                <element inactive_on_update="false" label="Chennai" sequence="1" value="chennai"/>
+                <element inactive_on_update="false" label="Bangalore" sequence="2" value="bangalore"/>
+                <element inactive_on_update="false" label="Selam" sequence="3" value="selam"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="tamil nadu" label="State" max_length="40" name="u_choice_5" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Tamil Nadu" sequence="0" value="tamil nadu"/>
+                <element inactive_on_update="false" label="Telangana" sequence="1" value="telangana"/>
+                <element inactive_on_update="false" label="Kerala" sequence="2" value="kerala"/>
+                <element inactive_on_update="false" label="Karnataka" sequence="3" value="karnataka"/>
+                <element inactive_on_update="false" label="Goa" sequence="4" value="goa"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="india" label="Country" max_length="40" name="u_choice_6" type="string">
+            <choice>
+                <element inactive_on_update="false" label="India" sequence="0" value="india"/>
+                <element inactive_on_update="false" label="Australia" sequence="1" value="australia"/>
+                <element inactive_on_update="false" label="Afghanistan" sequence="2" value="afghanistan"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="hr" label="Department" mandatory="true" max_length="40" name="u_choice_7" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="BPO" sequence="0" value="bpo"/>
+                <element inactive_on_update="false" label="HR" sequence="0" value="hr"/>
+                <element inactive="true" inactive_on_update="true" label="Advisor" sequence="1" value="advisor"/>
+                <element inactive_on_update="false" label="Finance" sequence="1" value="finance"/>
+                <element inactive_on_update="false" label="Development" sequence="2" value="devlops"/>
+                <element inactive_on_update="false" label="Service" sequence="3" value="service"/>
+                <element inactive_on_update="false" label="Business Analyst" sequence="4" value="business"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="coimbatore" label="Branch" mandatory="true" max_length="40" name="u_choice_9" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Coimbatore" sequence="0" value="coimbatore"/>
+                <element inactive_on_update="false" label="Chennai" sequence="1" value="chennai"/>
+                <element inactive_on_update="false" label="Kerala" sequence="2" value="kerala"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Date of  birth" max_length="40" name="u_glide_date_8" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address" mandatory="true" max_length="100" name="u_string_2" type="string"/>
+    </element>
+</database>

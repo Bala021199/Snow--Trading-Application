@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_string_1" label="Email" language="en" table="x_762021_trading_a_trade_employees">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_string_1</element>
+            <help/>
+            <hint/>
+            <label>Email</label>
+            <language>en</language>
+            <name>x_762021_trading_a_trade_employees</name>
+            <plural>Emails</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-17 12:49:11</sys_created_on>
+            <sys_id>b54309ad2fd6011084a15d8b2799b651</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Email</sys_name>
+            <sys_package display_value="Trading Application" source="x_762021_trading_a">44ecd4212f96011084a15d8b2799b6ab</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Trading Application">44ecd4212f96011084a15d8b2799b6ab</sys_scope>
+            <sys_update_name>sys_documentation_x_762021_trading_a_trade_employees_u_string_1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-17 12:49:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

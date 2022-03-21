@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Client_List" max_length="40" name="x_762021_trading_a_client_list" sizeclass="0" type="collection">
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" default="200" label="Available Balance" max_length="20" name="available_balance" type="price"/>
+        <element label="Client_Name" mandatory="true" max_length="40" name="client_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Client ID" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="tamilnadu" label="State" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Coimbatore" sequence="0" value="coimbatore"/>
+                <element inactive_on_update="false" label="Tamil Nadu" sequence="0" value="tamilnadu"/>
+                <element inactive="true" inactive_on_update="true" label="Chennai" sequence="1" value="chennai"/>
+                <element inactive_on_update="false" label="Kerala" sequence="1" value="kerala"/>
+                <element inactive="true" inactive_on_update="true" label="Bangalore" sequence="2" value="bangalore"/>
+                <element inactive_on_update="false" label="Karnataka" sequence="2" value="karnataka"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="coimbatore" label="City" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Coimbatore" sequence="0" value="coimbatore"/>
+                <element inactive_on_update="false" label="Chennai" sequence="1" value="chennai"/>
+                <element inactive_on_update="false" label="Bangalore" sequence="2" value="bangalore"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="tamil nadu" dependent="u_string_3" dependent_on_field="u_string_3" label="State" max_length="40" name="u_choice_5" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Branch Name" max_length="40" name="u_string_10" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Bank Name" max_length="40" name="u_string_11" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="u_string_2" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" label="Address" mandatory="true" max_length="60" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Aadhar No" mandatory="true" max_length="40" name="u_string_6" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PAN Card No" max_length="40" name="u_string_7" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Bank Account No" mandatory="true" max_length="40" name="u_string_8" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="IFSC" mandatory="true" max_length="40" name="u_string_9" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="7580452d2fd6011084a15d8b2799b6dd" sys_domain="global" table="x_762021_trading_a_trade_employees" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-20 13:52:55</sys_created_on>
+            <sys_id>f8aee0aa2f16811084a15d8b2799b670</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_762021_trading_a_trade_employees" sys_domain="global" view="Default view">7580452d2fd6011084a15d8b2799b6dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-20 13:52:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>emp_name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-20 13:52:55</sys_created_on>
+            <sys_id>7caee0aa2f16811084a15d8b2799b670</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_762021_trading_a_trade_employees" sys_domain="global" view="Default view">7580452d2fd6011084a15d8b2799b6dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-20 13:52:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_1</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-20 13:52:55</sys_created_on>
+            <sys_id>fcaee0aa2f16811084a15d8b2799b670</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_762021_trading_a_trade_employees" sys_domain="global" view="Default view">7580452d2fd6011084a15d8b2799b6dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-20 13:52:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone_number</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-20 13:52:55</sys_created_on>
+            <sys_id>70aee0aa2f16811084a15d8b2799b671</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_762021_trading_a_trade_employees" sys_domain="global" view="Default view">7580452d2fd6011084a15d8b2799b6dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-20 13:52:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_date_8</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-20 13:52:55</sys_created_on>
+            <sys_id>f0aee0aa2f16811084a15d8b2799b671</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_762021_trading_a_trade_employees" sys_domain="global" view="Default view">7580452d2fd6011084a15d8b2799b6dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-20 13:52:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_9</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-20 13:52:55</sys_created_on>
+            <sys_id>74aee0aa2f16811084a15d8b2799b671</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_762021_trading_a_trade_employees" sys_domain="global" view="Default view">7580452d2fd6011084a15d8b2799b6dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-20 13:52:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_7</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-20 13:52:55</sys_created_on>
+            <sys_id>f4aee0aa2f16811084a15d8b2799b671</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_762021_trading_a_trade_employees" sys_domain="global" view="Default view">7580452d2fd6011084a15d8b2799b6dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-20 13:52:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_1</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-20 13:52:55</sys_created_on>
+            <sys_id>78aee0aa2f16811084a15d8b2799b671</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_762021_trading_a_trade_employees" sys_domain="global" view="Default view">7580452d2fd6011084a15d8b2799b6dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-20 13:52:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_2</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-20 13:52:55</sys_created_on>
+            <sys_id>f8aee0aa2f16811084a15d8b2799b671</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_762021_trading_a_trade_employees" sys_domain="global" view="Default view">7580452d2fd6011084a15d8b2799b6dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-20 13:52:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_4</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-20 13:52:55</sys_created_on>
+            <sys_id>7caee0aa2f16811084a15d8b2799b671</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_762021_trading_a_trade_employees" sys_domain="global" view="Default view">7580452d2fd6011084a15d8b2799b6dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-20 13:52:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_5</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-20 13:52:55</sys_created_on>
+            <sys_id>fcaee0aa2f16811084a15d8b2799b671</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_762021_trading_a_trade_employees" sys_domain="global" view="Default view">7580452d2fd6011084a15d8b2799b6dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-20 13:52:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_6</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-20 13:52:55</sys_created_on>
+            <sys_id>70aee0aa2f16811084a15d8b2799b672</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_762021_trading_a_trade_employees" sys_domain="global" view="Default view">7580452d2fd6011084a15d8b2799b6dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-20 13:52:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_762021_trading_a_trade_employees</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-17 12:37:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7580452d2fd6011084a15d8b2799b6dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_762021_trading_a_trade_employees</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Trading Application" source="x_762021_trading_a">44ecd4212f96011084a15d8b2799b6ab</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Trading Application">44ecd4212f96011084a15d8b2799b6ab</sys_scope>
+            <sys_update_name>sys_ui_section_7580452d2fd6011084a15d8b2799b6dd</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-17 12:37:10</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

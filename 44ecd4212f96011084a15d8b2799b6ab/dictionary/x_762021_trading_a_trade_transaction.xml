@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="trade_transaction" max_length="40" name="x_762021_trading_a_trade_transaction" sizeclass="0" type="collection">
+        <element label="From Bank A\C no" mandatory="true" max_length="40" name="bank_a_c_no" type="string"/>
+        <element label="From" max_length="40" name="from" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Transaction No" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="in" label="Type" mandatory="true" max_length="40" name="u_choice_7" type="string">
+            <choice>
+                <element inactive_on_update="false" label="IN" sequence="0" value="in"/>
+                <element inactive_on_update="false" label="OUT" sequence="1" value="out"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Date / Time" mandatory="true" max_length="40" name="u_glide_date_time_6" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="4000" name="u_journal_1" type="journal"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Transaction Amount" mandatory="true" max_length="20" name="u_price_5" type="price"/>
+        <element attributes="edge_encryption_enabled=true" label="To Bank A\C no" mandatory="true" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="From Bank Name \ IFSC" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="To Bank Name \ IFSC" max_length="40" name="u_string_4" type="string"/>
+        <element attributes="base_start=true" label="From" max_length="80" name="u_table_name_1" type="table_name"/>
+    </element>
+</database>

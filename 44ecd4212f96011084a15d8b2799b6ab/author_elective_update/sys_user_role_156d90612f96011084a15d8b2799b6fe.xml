@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_762021_trading_a.trade_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>x_762021_trading_a.trade_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-17 10:03:40</sys_created_on>
+        <sys_id>156d90612f96011084a15d8b2799b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_762021_trading_a.trade_user</sys_name>
+        <sys_package display_value="Trading Application" source="x_762021_trading_a">44ecd4212f96011084a15d8b2799b6ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Trading Application">44ecd4212f96011084a15d8b2799b6ab</sys_scope>
+        <sys_update_name>sys_user_role_156d90612f96011084a15d8b2799b6fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-17 10:03:40</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Trading Application">44ecd4212f96011084a15d8b2799b6ab</application>
+        <file_path/>
+        <instance_id>e731cd32dba28c5052cec597059619dc</instance_id>
+        <instance_name>dev98041</instance_name>
+        <name>sys_user_role_156d90612f96011084a15d8b2799b6fe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_762021_trading_a.trade_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>x_762021_trading_a.trade_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-03-17 10:03:40</sys_created_on><sys_id>156d90612f96011084a15d8b2799b6fe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_762021_trading_a.trade_user</sys_name><sys_package display_value="Trading Application" source="x_762021_trading_a">44ecd4212f96011084a15d8b2799b6ab</sys_package><sys_policy/><sys_scope display_value="Trading Application">44ecd4212f96011084a15d8b2799b6ab</sys_scope><sys_update_name>sys_user_role_156d90612f96011084a15d8b2799b6fe</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-03-17 10:03:40</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>758819770</payload_hash>
+        <record_name>x_762021_trading_a.trade_user</record_name>
+        <reverted_from/>
+        <source>c0ecd4212f96011084a15d8b2799b6ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-17 10:03:40</sys_created_on>
+        <sys_id>a16dd0612f96011084a15d8b2799b602</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f97553f9a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-17 10:03:40</sys_updated_on>
+        <type>Role</type>
+        <update_guid>d96dd0612f9601100e636c03edf13701</update_guid>
+        <update_guid_history>d96dd0612f9601100e636c03edf13701:758819770</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_762021_trading_a.trade_user">262e40ae2f92811084a15d8b2799b670</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-20 11:31:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>032ba076053540308103c636c7933b44</sys_id>
+        <sys_metadata>156d90612f96011084a15d8b2799b6fe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_762021_trading_a.trade_user</sys_name>
+        <sys_package display_value="Trading Application" source="x_762021_trading_a">44ecd4212f96011084a15d8b2799b6ab</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Trading Application">44ecd4212f96011084a15d8b2799b6ab</sys_scope>
+        <sys_scope_delete display_value="">1e21be30cf9e4d7d8d515524c280bc59</sys_scope_delete>
+        <sys_update_name>sys_user_role_156d90612f96011084a15d8b2799b6fe</sys_update_name>
+        <sys_update_version display_value="sys_user_role_156d90612f96011084a15d8b2799b6fe">a16dd0612f96011084a15d8b2799b602</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-20 11:31:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

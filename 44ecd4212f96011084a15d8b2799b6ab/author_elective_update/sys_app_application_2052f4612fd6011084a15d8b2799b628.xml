@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description>For Orders List</description>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Orders</name>
+        <order>100</order>
+        <roles>x_762021_trading_a.orders_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-17 11:35:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2052f4612fd6011084a15d8b2799b628</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Orders</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Trading Application" source="x_762021_trading_a">44ecd4212f96011084a15d8b2799b6ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Trading Application">44ecd4212f96011084a15d8b2799b6ab</sys_scope>
+        <sys_update_name>sys_app_application_2052f4612fd6011084a15d8b2799b628</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-17 11:41:00</sys_updated_on>
+        <title>Orders</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Trading Application">44ecd4212f96011084a15d8b2799b6ab</application>
+        <file_path/>
+        <instance_id>e731cd32dba28c5052cec597059619dc</instance_id>
+        <instance_name>dev98041</instance_name>
+        <name>sys_app_application_2052f4612fd6011084a15d8b2799b628</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description>For Orders List</description><device_type>browser</device_type><hint/><name>Orders</name><order>100</order><roles>x_762021_trading_a.orders_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-03-17 11:35:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2052f4612fd6011084a15d8b2799b628</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Orders</sys_name><sys_overrides/><sys_package display_value="Trading Application" source="x_762021_trading_a">44ecd4212f96011084a15d8b2799b6ab</sys_package><sys_policy/><sys_scope display_value="Trading Application">44ecd4212f96011084a15d8b2799b6ab</sys_scope><sys_update_name>sys_app_application_2052f4612fd6011084a15d8b2799b628</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-03-17 11:41:00</sys_updated_on><title>Orders</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>977924804</payload_hash>
+        <record_name>Orders</record_name>
+        <reverted_from/>
+        <source>c0ecd4212f96011084a15d8b2799b6ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-17 11:41:01</sys_created_on>
+        <sys_id>d3a3b8a12fd6011084a15d8b2799b66f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f97ae5e0d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-17 11:41:01</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>1fa374a1edd60110d50eeb3e56b8dbc4</update_guid>
+        <update_guid_history>1fa374a1edd60110d50eeb3e56b8dbc4:977924804,6852f46118d60110c1390238b235462a:-2128344838</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Orders">c324f0e12fd6011084a15d8b2799b634</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-17 11:43:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>55393f51bade4640bc8c901d88805a84</sys_id>
+        <sys_metadata>2052f4612fd6011084a15d8b2799b628</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Orders</sys_name>
+        <sys_package display_value="Trading Application" source="x_762021_trading_a">44ecd4212f96011084a15d8b2799b6ab</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Trading Application">44ecd4212f96011084a15d8b2799b6ab</sys_scope>
+        <sys_scope_delete display_value="">1e21be30cf9e4d7d8d515524c280bc59</sys_scope_delete>
+        <sys_update_name>sys_app_application_2052f4612fd6011084a15d8b2799b628</sys_update_name>
+        <sys_update_version display_value="sys_app_application_2052f4612fd6011084a15d8b2799b628">d3a3b8a12fd6011084a15d8b2799b66f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-17 11:43:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
